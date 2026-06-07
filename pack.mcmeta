@@ -1,0 +1,92 @@
+{
+  "format_version": "1.21.11",
+  "credit": "ProjectOrigins - Telephone Origins",
+  "parent": "builtin/generated",
+  "ambientocclusion": false,
+  "textures": {
+    "body":   "item/phone_body",
+    "screen": "item/phone_screen",
+    "camera": "item/phone_camera",
+    "button": "item/phone_button"
+  },
+  "elements": [
+    {
+      "name": "corps",
+      "from": [5, 0, 0],
+      "to":   [14, 16, 2],
+      "faces": {
+        "north": {"uv": [2, 0, 11, 16], "texture": "#screen"},
+        "east":  {"uv": [14, 0, 16, 16], "texture": "#body"},
+        "south": {"uv": [5, 0, 14, 16],  "texture": "#body"},
+        "west":  {"uv": [0, 0, 2, 16],   "texture": "#body"},
+        "up":    {"uv": [5, 0, 14, 2],   "texture": "#body"},
+        "down":  {"uv": [5, 14, 14, 16], "texture": "#body"}
+      }
+    },
+    {
+      "name": "ecran",
+      "from": [6, 2, -0.2],
+      "to":   [13, 14, -0.1],
+      "faces": {
+        "north": {"uv": [3, 2, 10, 14], "texture": "#screen"}
+      }
+    },
+    {
+      "name": "camera",
+      "from": [6.5, 12, -0.4],
+      "to":   [12.5, 14.5, -0.2],
+      "faces": {
+        "north": {"uv": [3.5, 1.5, 9.5, 4], "texture": "#camera"}
+      }
+    },
+    {
+      "name": "bouton_home",
+      "from": [6.2, 1.5, -0.4],
+      "to":   [12.8, 2, -0.2],
+      "faces": {
+        "north": {"uv": [3.2, 14, 9.8, 14.5], "texture": "#button"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation":    [0, 90, 0],
+      "translation": [0, 1, 0],
+      "scale":       [0.9, 0.9, 0.9]
+    },
+    "thirdperson_lefthand": {
+      "rotation":    [0, 90, 0],
+      "translation": [0, 1, 0],
+      "scale":       [0.9, 0.9, 0.9]
+    },
+    "firstperson_righthand": {
+      "rotation":    [0, 90, 0],
+      "translation": [2, 2, 0],
+      "scale":       [1.2, 1.2, 1.2]
+    },
+    "firstperson_lefthand": {
+      "rotation":    [0, 270, 0],
+      "translation": [2, 2, 0],
+      "scale":       [1.2, 1.2, 1.2]
+    },
+    "gui": {
+      "rotation":    [30, 225, 0],
+      "translation": [0, 0, 0],
+      "scale":       [0.85, 0.85, 0.85]
+    },
+    "head": {
+      "rotation":    [0, 180, 0],
+      "translation": [0, 13, 7],
+      "scale":       [1, 1, 1]
+    },
+    "ground": {
+      "translation": [0, 2, 0],
+      "scale":       [0.5, 0.5, 0.5]
+    },
+    "fixed": {
+      "rotation":    [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale":       [1, 1, 1]
+    }
+  }
+}
